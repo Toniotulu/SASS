@@ -86,7 +86,7 @@ h3 {
 
 .logo {
   width: 100px;
-  height: 20px;
+  height: 100px;
 }
 
 header {
@@ -199,4 +199,30 @@ footer .footer-content {
   .presentacion div h1, .presentacion div p {
     padding: 0;
   }
+}
+
+
+/*Maps*/
+.btn-facebook {
+  background-color: #321d18;
+}
+
+.btn-instagram {
+  background-color: #321d18;
+}
+
+.btn-sendmail {
+  background-color: #321d18;
+}
+
+.color1 {
+  background-color: #e9a925;
+}
+
+.fondo_cafe {
+  background-color: #321d18;
+}
+
+.fondo_amarillo {
+  background-color: #e9a925;
 }

@@ -91,3 +91,26 @@ footer{
 }
 
 @import 'medios';
+
+/*Maps*/
+$redes:(facebook:#E9A925, instagram:#E9A925 sendmail:#E9A925);
+$colores: (color1:#321D18, color2:#E9A925, color3:#FFF95B);
+
+@each $clave, $valor in $redes{
+    .btn-#{$clave} {
+        background-color: $valor;
+    }
+}
+
+
+@each $clave2, $valor2 in $redes{
+    .btn-#{$clave} {
+        background-color: $valor;
+    }
+}
+
+@each $clave3, $valor3 in $redes{
+    .btn-#{$clave} {
+        background-color: $valor;
+    }
+}

@@ -94,7 +94,7 @@ h3{
     background-color:rgb(134, 132, 132);
 }
 
-// USO DE MIXINS EN SASS;
+// MIXINS EN SASS;
 
 @mixin caja-flex($principal, $cruzado, $wrap){
     display: flex;
@@ -103,7 +103,7 @@ h3{
     flex-wrap: $wrap;
 }
 
-// EJEMPLO DE FUNCION EN SASS
+// FUNCION EN SASS
 
 @function font-calc($size, $type){
 
